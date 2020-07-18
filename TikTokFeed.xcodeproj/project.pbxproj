@@ -13,6 +13,8 @@
 		B16BE32D24C2A82E00951122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BE32B24C2A82E00951122 /* Main.storyboard */; };
 		B16BE32F24C2A82F00951122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16BE32E24C2A82F00951122 /* Assets.xcassets */; };
 		B16BE33224C2A82F00951122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16BE33024C2A82F00951122 /* LaunchScreen.storyboard */; };
+		B16BE33B24C2AC8400951122 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16BE33A24C2AC8400951122 /* VideoCollectionViewCell.swift */; };
+		B16BE34224C2F1E700951122 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = B16BE34124C2F1E700951122 /* start.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B16BE32E24C2A82F00951122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16BE33124C2A82F00951122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16BE33324C2A82F00951122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16BE33A24C2AC8400951122 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B16BE34124C2F1E700951122 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				B16BE32524C2A82E00951122 /* AppDelegate.swift */,
 				B16BE32724C2A82E00951122 /* SceneDelegate.swift */,
 				B16BE32924C2A82E00951122 /* ViewController.swift */,
+				B16BE33A24C2AC8400951122 /* VideoCollectionViewCell.swift */,
 				B16BE32B24C2A82E00951122 /* Main.storyboard */,
 				B16BE32E24C2A82F00951122 /* Assets.xcassets */,
 				B16BE33024C2A82F00951122 /* LaunchScreen.storyboard */,
 				B16BE33324C2A82F00951122 /* Info.plist */,
+				B16BE34124C2F1E700951122 /* start.mov */,
 			);
 			path = TikTokFeed;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				B16BE33224C2A82F00951122 /* LaunchScreen.storyboard in Resources */,
 				B16BE32F24C2A82F00951122 /* Assets.xcassets in Resources */,
 				B16BE32D24C2A82E00951122 /* Main.storyboard in Resources */,
+				B16BE34224C2F1E700951122 /* start.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				B16BE32A24C2A82E00951122 /* ViewController.swift in Sources */,
 				B16BE32624C2A82E00951122 /* AppDelegate.swift in Sources */,
+				B16BE33B24C2AC8400951122 /* VideoCollectionViewCell.swift in Sources */,
 				B16BE32824C2A82E00951122 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
